@@ -2,3 +2,17 @@
 <p>The count in parent : {{ likeCount }}</p>
 <app-greeting [name]="'ABC'" (like)="onLiked()" />
 <app-greeting [name]="'ABC2'" (like)="onLiked()" />
+<!-- simple content projection -->
+<app-card>
+  <p>first content projected card</p>
+</app-card>
+<app-card>
+  <p>second card with some other stuff.</p>
+</app-card>
+
+<!-- Multi-slot conent projection -->
+<app-multi-slot-comp>
+  <h3 card-title>Welcome</h3>
+  <p card-body>This is multi-slot comp example</p>
+  <button card-footer>read more</button>
+</app-multi-slot-comp>

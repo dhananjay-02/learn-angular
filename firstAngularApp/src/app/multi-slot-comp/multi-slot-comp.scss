@@ -1,0 +1,21 @@
+.card {
+  margin-top: 15px;
+  border: 1px solid mediumpurple;
+  border-radius: 5px;
+}
+
+.card-header {
+  background-color: mediumpurple;
+  padding: 1px 10px;
+  color: white;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-footer {
+  border-top: 1px solid mediumpurple;
+  padding: 10px;
+  text-align: right;
+}
